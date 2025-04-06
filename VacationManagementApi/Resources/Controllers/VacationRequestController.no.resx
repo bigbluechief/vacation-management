@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Fant ikke ansatt</value>
+  </data>
+  <data name="UnexpectedErrorOccured" xml:space="preserve">
+    <value>En uventet feil oppstod</value>
+  </data>
+  <data name="VacationRequestNotFound" xml:space="preserve">
+    <value>Forespørsel om ferie med ID {0} ble ikke funnet</value>
+  </data>
+  <data name="VacationRequestNotPending" xml:space="preserve">
+    <value>Forespørsel om ferie med ID {0} er ikke ventende</value>
+  </data>
+  <data name="VacationRequestExceedsEntitlement" xml:space="preserve">
+    <value>Forespørsel om ferie med ID {0} overskrider kvoten</value>
+  </data>
+  <data name="InvalidDateRange" xml:space="preserve">
+    <value>Ferieforespørsel kan ikke krysse flere år</value>
+  </data>
+  <data name="ExceedsEntitlement" xml:space="preserve">
+    <value>Ferieforespørselen overskrider tilgjengelige dager</value>
+  </data>
+</root>

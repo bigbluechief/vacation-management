@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Employee not found</value>
+  </data>
+  <data name="UnexpectedErrorOccured" xml:space="preserve">
+    <value>Unexpected error occurred</value>
+  </data>
+  <data name="VacationRequestNotFound" xml:space="preserve">
+    <value>Vacation request with ID {0} not found</value>
+  </data>
+  <data name="VacationRequestNotPending" xml:space="preserve">
+    <value>Vacation request with ID {0} is not pending</value>
+  </data>
+  <data name="VacationRequestExceedsEntitlement" xml:space="preserve">
+    <value>Vacation request with ID {0} exceeds entitlement</value>
+  </data>
+  <data name="InvalidDateRange" xml:space="preserve">
+    <value>Vacation request cannot span multiple years</value>
+  </data>
+  <data name="ExceedsEntitlement" xml:space="preserve">
+    <value>Vacation request exceeds available days</value>
+  </data>
+</root>

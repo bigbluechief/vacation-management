@@ -1,0 +1,86 @@
+# Get vaccation days for a specific company and year
+GET http://localhost:5014/company/2/vacation-days/2025
+
+###
+
+# Get all employees
+GET http://localhost:5014/employee
+
+###
+
+# Get a specific employee
+GET http://localhost:5014/employee/2
+Accept-Language: no
+
+###
+
+# Get vacation balance for a specific employee and year
+GET http://localhost:5014/employee/3/vacation-balance/2025
+
+###
+
+# Get vacation balance for a list of employees and year
+POST http://localhost:5014/employee/vacation-balance
+Content-Type: application/json
+
+{
+  "employeeIds": [1, 2, 3],
+  "year": 2025
+}
+
+###
+
+# Get a specific vacation request
+GET http://localhost:5014/VacationRequest/1
+
+###
+
+# Create a vacatation request
+POST http://localhost:5014/VacationRequest
+Content-Type: application/json
+Accept-Language: no
+
+{
+  "employeeId": 3,
+  "startDate": "2025-09-20",
+  "endDate": "2025-10-05",
+  "status": "Pending",
+  "note": "Vacation request for summer vacation",
+  "approverAdminId": 1
+}
+
+###
+
+# Approve a vacation request
+POST http://localhost:5014/VacationRequest/1/approve
+Content-Type: application/json
+
+{
+  "administratorId": 1
+}
+
+###
+
+# Reject a vacation request
+POST http://localhost:5014/VacationRequest/1/reject
+Content-Type: application/json
+Accept-Language: no
+
+{
+  "administratorId": 1
+}
+
+###
+
+# Search for vacation requests with filters
+POST http://localhost:5014/VacationRequest/search
+Content-Type: application/json
+
+{
+ "year": 2025,
+ "month": 9,
+ "statuses": ["Approved", "Pending"],
+ "departments": ["Management"],
+ "roles": ["CFO"],
+ "excludeInactiveEmployees": false
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Employee not found</value>
+  </data>
+  <data name="UnexpectedErrorOccured" xml:space="preserve">
+    <value>Unexpected error occurred</value>
+  </data>
+  <data name="NoVacationBalanceFoundForYear" xml:space="preserve">
+    <value>No vacation balance found for year {0}</value>
+  </data>
+  <data name="InvalidEmployeeIds" xml:space="preserve">
+    <value>Employee IDs cannot be null or empty</value>
+  </data>
+  <data name="EmployeesNotFound" xml:space="preserve">
+    <value>No employees found with the provided IDs</value>
+  </data>
+</root>

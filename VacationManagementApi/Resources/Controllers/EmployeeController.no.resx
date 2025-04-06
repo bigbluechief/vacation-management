@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Fant ikke ansatt</value>
+  </data>
+  <data name="UnexpectedErrorOccured" xml:space="preserve">
+    <value>En uventet feil oppstod</value>
+  </data>
+  <data name="NoVacationBalanceFoundForYear" xml:space="preserve">
+    <value>Ingen feriesaldo funnet for år {0}</value>
+  </data>
+  <data name="InvalidEmployeeIds" xml:space="preserve">
+    <value>Ansatt-IDer kan ikke være null eller tomme</value>
+  </data>
+  <data name="EmployeesNotFound" xml:space="preserve">
+    <value>Ingen ansatte ble funnet med de oppgitte ID-ene</value>
+  </data>
+</root>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Medarbetare hittades inte</value>
+  </data>
+  <data name="UnexpectedErrorOccured" xml:space="preserve">
+    <value>Ett oväntat fel inträffade</value>
+  </data>
+  <data name="VacationRequestNotFound" xml:space="preserve">
+    <value>Ledighetsansökan med ID {0} hittades inte</value>
+  </data>
+  <data name="VacationRequestNotPending" xml:space="preserve">
+    <value>Ledighetsansökan med ID {0} är inte i väntande status</value>
+  </data>
+  <data name="VacationRequestExceedsEntitlement" xml:space="preserve">
+    <value>Ledighetsansökan med ID {0} överskrider kvoten</value>
+  </data>
+  <data name="InvalidDateRange" xml:space="preserve">
+    <value>Ledighetsansökan kan inte omfatta flera år</value>
+  </data>
+  <data name="ExceedsEntitlement" xml:space="preserve">
+    <value>Ledighetsansökan överskrider tillgängliga dagar</value>
+  </data>
+</root>

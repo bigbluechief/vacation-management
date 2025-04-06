@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="EmployeeNotFound" xml:space="preserve">
+    <value>Medarbetare hittades inte</value>
+  </data>
+  <data name="UnexpectedErrorOccured" xml:space="preserve">
+    <value>Ett oväntat fel inträffade</value>
+  </data>
+  <data name="NoVacationBalanceFoundForYear" xml:space="preserve">
+    <value>Ingen semesterbalans hittades för år {0}</value>
+  </data>
+  <data name="InvalidEmployeeIds" xml:space="preserve">
+    <value>Medarbetar-ID:er får inte vara null eller tomma</value>
+  </data>
+  <data name="EmployeesNotFound" xml:space="preserve">
+    <value>Inga medarbetare hittades med de angivna ID:erna</value>
+  </data>
+</root>

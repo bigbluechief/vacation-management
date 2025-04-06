@@ -1,0 +1,17 @@
+{
+    "selectEmployee": "Välj en anställd:",
+    "pleaseSelect": "Vänligen välj",
+    "registerVacationFor": "Registrera semester för",
+    "startDate": "Startdatum",
+    "endDate": "Slutdatum",
+    "note": "Notering",
+    "registerVacation": "Registrera semester",
+    "errorFetchEmployees": "Misslyckades med att hämta anställda",
+    "errorFetchEmployeeData": "Misslyckades med att hämta anställdas data",
+    "errorSelectDates": "Vänligen välj både start- och slutdatum",
+    "errorInvalidYear": "Datumen måste vara inom innevarande år",
+    "errorStartAfterEnd": "Startdatum måste vara före slutdatum",
+    "errorSubmitRequest": "Misslyckades med att skicka begäran",
+    "successRequest": "Semesterbegäran registrerades framgångsrikt",
+    "publicHolidayNote": "Allmänna helgdagar räknas inte som semesterdagar. Lördagar och söndagar kommer att betraktas som helgdagar om de är registrerade som helgdagar under kontoinställningar."
+}

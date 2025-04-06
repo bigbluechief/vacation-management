@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="CompanyNotFound" xml:space="preserve">
+    <value>Företaget hittades inte</value>
+  </data>
+</root>

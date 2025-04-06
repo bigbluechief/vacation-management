@@ -1,0 +1,17 @@
+{
+    "selectEmployee": "Select an employee:",
+    "pleaseSelect": "Please select",
+    "registerVacationFor": "Register Vacation for",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "note": "Note",
+    "registerVacation": "Register Vacation",
+    "errorFetchEmployees": "Failed to fetch employees",
+    "errorFetchEmployeeData": "Failed to fetch employee data",
+    "errorSelectDates": "Please select both start and end dates",
+    "errorInvalidYear": "Dates must be within the current year",
+    "errorStartAfterEnd": "Start date must be before end date",
+    "errorSubmitRequest": "Failed to submit request",
+    "successRequest": "Vacation request registered successfully",
+    "publicHolidayNote": "Public holidays are not considered vacation days. Saturdays and Sundays will be considered vacation days if they are registered as vacation days under account settings."
+}

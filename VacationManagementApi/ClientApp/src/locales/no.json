@@ -1,0 +1,17 @@
+{
+    "selectEmployee": "Velg en ansatt:",
+    "pleaseSelect": "Vennligst velg",
+    "registerVacationFor": "Registrer ferie for",
+    "startDate": "Startdato",
+    "endDate": "Sluttdato",
+    "note": "Merknad",
+    "registerVacation": "Registrer ferie",
+    "errorFetchEmployees": "Kunne ikke hente ansatte",
+    "errorFetchEmployeeData": "Kunne ikke hente data om den ansatte",
+    "errorSelectDates": "Vennligst velg både start- og sluttdato",
+    "errorInvalidYear": "Datoene må være innenfor inneværende år",
+    "errorStartAfterEnd": "Startdato må være før sluttdato",
+    "errorSubmitRequest": "Kunne ikke sende ferieforespørselen",
+    "successRequest": "Ferieforespørselen ble registrert",
+    "publicHolidayNote": "Helligdager regnes ikke som feriedager. Lørdager og søndager vil regnes som feriedager dersom de er registrert som feriedager under kontoinstillinger."
+}
